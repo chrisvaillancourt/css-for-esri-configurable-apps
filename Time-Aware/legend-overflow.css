@@ -1,0 +1,19 @@
+.esriLegendServiceLabel {
+	display: none !important;
+}
+
+.esriLegendLayer.esriLegendSubFragment tbody tr:nth-child(2) {
+	display: none;
+}
+
+#legendContainer {
+	padding-top: 0;
+}
+
+#esri_dijit_Legend_0_child_marriage_data_longitudinal_5734 {
+	padding-top: 0;
+}
+
+#legendContainer {
+	width: 250px;
+}
