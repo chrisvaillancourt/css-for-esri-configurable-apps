@@ -1,0 +1,105 @@
+/*
+  Example:https://urbanobservatory.maps.arcgis.com/apps/MinimalGallery/index.html?appid=f26ab17257e34acd9e23c6a5fbdad3f5
+*/
+.loader-text {
+	color: #fff
+}
+
+#viewDiv,
+.esri-view-surface,
+.map-container,
+body {
+	background: #1a1a1a
+}
+
+.esri-button,
+.esri-input,
+.esri-menu,
+.esri-popup .esri-popup__button,
+.esri-popup .esri-popup__pointer-direction,
+.esri-popup__main-container,
+.esri-widget,
+.esri-widget a,
+.esri-widget--button {
+	background-color: #242424;
+	color: #adadad
+}
+
+.esri-menu li:focus,
+.esri-menu li:hover,
+.esri-widget--button:focus,
+.esri-widget--button:hover {
+	background-color: #699;
+	color: #adadad
+}
+
+.esri-button:focus,
+.esri-button:hover {
+	color: #adadad
+}
+
+.esri-search__input::-moz-placeholder {
+	color: #ccc;
+	opacity: 1
+}
+
+.esri-search__input:-ms-input-placeholder {
+	color: #ccc
+}
+
+.esri-search__input::-webkit-input-placeholder {
+	color: #ccc
+}
+
+.esri-component.esri-legend.esri-widget--panel.esri-widget {
+	display: -ms-grid;
+	display: grid;
+	grid-auto-flow: column;
+	-ms-grid-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	max-height: 250px;
+	position: relative;
+	bottom: 40px;
+	background: #1a1a1ab8;
+	border-radius: 10px;
+	color: #fff;
+	overflow: hidden;
+	-webkit-box-shadow: 0 0 10px #1a1a1ab8;
+	box-shadow: 0 0 10px #1a1a1ab8
+}
+
+.esri-widget__heading.esri-legend__service-label {
+	color: #fff
+}
+
+.esri-legend__service {
+	padding: 5px
+}
+
+.esri-legend__layer-caption {
+	padding: 0;
+	display: none
+}
+
+.esri-legend__layer-body {
+	margin-left: 0
+}
+
+.esri-legend__service:first-of-type {
+	display: none
+}
+
+.esri-legend__layer-body .esri-legend__layer-row:nth-child(2),
+.esri-legend__layer-body .esri-legend__layer-row:nth-child(4) {
+	display: none
+}
+
+.esri-legend__service:last-of-type .esri-widget__heading.esri-legend__service-label {
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content
+}
+
+.esri-feature__media-chart {
+	height: min-content !important;
+}
